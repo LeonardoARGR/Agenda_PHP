@@ -1,0 +1,150 @@
+body {
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B3C8F2;
+    margin: 10px;
+}
+.main-container{
+    border-color: black;
+    border: solid;
+    border-radius: 3px;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    min-height: 150px;
+    max-height: 300px;
+    width: 100%;
+    background-color: #081226;
+    color: white;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    background-color: #CEDEF2;
+}
+.table-container{
+    width: 10000;
+    background-color: #CEDEF2;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text {
+    font-size: 25px;
+}
+
+.row-test {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    margin-top: 3px;
+    outline-offset: -10px;
+    -moz-outline-radius: 10px;
+    -webkit-outline-radius: 10px;
+    border-color: black
+}
+
+.title-row {
+    font-weight: bold;
+    background-color: #2D4473;
+    color: white;;
+}
+
+.col-test {
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    padding: 20px;
+    outline-offset: -10px;
+    -moz-outline-radius: 10px;
+    -webkit-outline-radius: 10px;
+    border-color: black
+}
+
+.home-a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: 400ms;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color: #5c81cc;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+input {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+textarea {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.button {
+    border: 2px;
+    color: white;
+    background-color: #2D4473;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 300px;
+    height: 60px;
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 500px;
+    width: 1000px;
+}
+.topic-a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+    transition: 400ms;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.topic-a:hover{
+    color: #5c81cc;
+}
